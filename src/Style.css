@@ -1,0 +1,149 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.App1{
+    width: 100%;
+    padding-left: 20px;
+    background-color: rgb(165, 214, 231);
+}
+.App1 h5{
+    margin-top: 10px;
+    font-size: 20px;
+    color: #817d7d;
+}
+.App{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 350px ;
+    gap: 10px 10px;
+    padding-top: 20px;
+  
+}
+.main{
+    border: 2px solid black;
+    padding: 20px;
+    text-align: left;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: whitesmoke;
+    border: none;
+}
+
+img{
+    width: 100%;
+    height: 50%;
+}
+h6{
+color: #817d7d;
+}
+button{
+    padding: 7px;
+    border-radius: 5px;
+    background-color: #161010;
+    color: whitesmoke;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(32, 90, 189);
+    color: whitesmoke;
+}
+h2 span{
+    color: rgb(199, 225, 225);
+}
+p{
+    text-decoration: darkgray;
+}
+.head1{
+    display: flex;
+   margin: 10px;
+   gap: 10px;
+}
+.header1{
+    display: flex;
+}
+.nav1{
+    width: 25%;
+    text-align: left;
+   margin-left: 20px;
+}
+.nav1 h4{
+    margin-top: 50px;
+    font-size: 18px;
+    color: #817d7d;
+}
+.nav1 h4:hover{
+    color: black;
+    cursor: pointer;
+}
+.cir{
+    width: 30px;
+    height: 30px;
+   
+}
+.cir img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+i{
+    margin-right: 5px;
+}
+.fa-magnifying-glass{
+    font-size: 30px;
+    margin-left: 20px;
+}
+@media (max-width:1200px) {
+    .App{
+        
+        grid-template-columns: 230px 230px 230px ;
+        grid-template-rows: 350px;
+    } 
+    .nav1 h4{
+       font-size: 13px;
+    } 
+}
+@media (max-width:779px) {
+    .App{
+        
+        grid-template-columns: 280px 280px ;
+        grid-template-rows: 350px 350px ;
+    } 
+    .nav1 h4{
+       font-size: 13px;
+    } 
+}
+@media (max-width:550px) {
+    .App{
+        
+        grid-template-columns: 280px 280px ;
+        grid-template-rows: 350px 350px ;
+    } 
+    .nav1 h4{
+       font-size: 13px;
+    } 
+}
+@media (max-width:500px) {
+    .App{
+        
+        grid-template-columns: 280px  ;
+        grid-template-rows: 350px 350px ;
+    } 
+    .nav1{
+        width: 35%;
+        text-align:left;
+       margin-left: 5px;
+    }
+    .nav1 h4{
+       font-size: 13px;
+      
+    } 
+    .fa-magnifying-glass{
+        font-size: 20px;
+        margin-top: 8px;
+    }
+}
+
